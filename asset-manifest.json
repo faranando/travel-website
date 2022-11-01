@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/faranando/travel-website/static/css/main.70b22799.css",
+    "main.js": "/faranando/travel-website/static/js/main.8dbdf9d0.js",
+    "static/js/787.d7068ccd.chunk.js": "/faranando/travel-website/static/js/787.d7068ccd.chunk.js",
+    "index.html": "/faranando/travel-website/index.html",
+    "main.70b22799.css.map": "/faranando/travel-website/static/css/main.70b22799.css.map",
+    "main.8dbdf9d0.js.map": "/faranando/travel-website/static/js/main.8dbdf9d0.js.map",
+    "787.d7068ccd.chunk.js.map": "/faranando/travel-website/static/js/787.d7068ccd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70b22799.css",
+    "static/js/main.8dbdf9d0.js"
+  ]
+}
