@@ -21,6 +21,7 @@
   --#{$prefix}btn-focus-box-shadow: 0 0 0 #{$btn-focus-width} rgba(var(--#{$prefix}btn-focus-shadow-rgb), .5);
   // scss-docs-end btn-css-vars
 
+  min-height: 50px;
   display: inline-block;
   padding: var(--#{$prefix}btn-padding-y) var(--#{$prefix}btn-padding-x);
   font-family: var(--#{$prefix}btn-font-family);
@@ -110,6 +111,9 @@
     border-color: var(--#{$prefix}btn-disabled-border-color);
     opacity: var(--#{$prefix}btn-disabled-opacity);
     @include box-shadow(none);
+  }
+  &.btn-shadow{
+    box-shadow: 0px 8px 15px rgba($primary, 0.3);
   }
 }
 
