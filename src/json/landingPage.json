@@ -59,12 +59,12 @@
   "categories": [
     {
       "_id": "asd1293uasdads1",
-      "name": "House with beauty backyard",
+      "name": "House with beautiful backyard",
       "items": [
         {
           "_id": "asd1293uasdads1",
           "name": "PSW Antasari",
-          "imageUrl": "/images/image-category-1.jpg",
+          "imageUrl": "/images/card-img1.jpg",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": true
@@ -72,7 +72,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Kuretakeso",
-          "imageUrl": "/images/image-category-2.jpg",
+          "imageUrl": "/images/card-img2.jpg",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -80,7 +80,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Arya Duta",
-          "imageUrl": "/images/image-category-3.jpg",
+          "imageUrl": "/images/card-img3.jpg",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -88,7 +88,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-4.jpg",
+          "imageUrl": "/images/card-img4.jpg",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false

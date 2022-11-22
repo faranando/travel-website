@@ -69,7 +69,9 @@ $utilities: map-merge(
     ),
   )
 );
-
+a{
+  text-decoration: none;
+}
 .brand-text-icon{
     font-size: 26px;
     font-weight: 500;
@@ -118,7 +120,7 @@ section{
 
 .card{
   height: 100%;
-
+  border-radius: 15px;
   .tag{
     z-index: 3;
     font-size: 0.875rem;
@@ -166,6 +168,8 @@ section{
     overflow: hidden;
     cursor: pointer;
     height: 100%;
+    
+
     &:after{
       position: absolute;
       content: "";
@@ -186,9 +190,8 @@ section{
       right: 0;
       left: 0;
       bottom: 0;
-      transform: scale(1.1);
-      transition: 0,5s transform ease-in-out;
-      border-radius: $border-radius;
+      transform: scale(1.01);
+      transition: 0.2s transform ease-in;
     }
     .meta-wrapper{
       z-index: 4;
@@ -199,6 +202,22 @@ section{
       bottom: 0;
       width: 100%;
       transform: translateY(0);
+      transition: 0.3s transform ease-in-out;
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+    }
+
+    &:hover{
+      .meta-wrapper{
+        transform: translateY(-5px);
+      }
+      &:after{
+        transform: scale(1);
+      }
+      .img-wrapper{
+        transform: translateY(-1px);
+      }
     }
   }
 }
