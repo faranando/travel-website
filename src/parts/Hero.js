@@ -1,5 +1,6 @@
 import React from 'react'
 import ImageHero from "../assets/images/img-hero.jpg"
+import HeroFrame from "../assets/images/frame-hero.jpg"
 import IconCities from "../assets/images/icons/ic_cities.svg"
 import IconTraveler from "../assets/images/icons/ic_traveler.svg"
 import IconTreasure from "../assets/images/icons/ic_treasure.svg"
@@ -54,7 +55,8 @@ export default function Hero(props) {
 
             <div className='col-6 ps-5'>
                 <div style={{width: 520, height: 410 }}>
-                    <img src={ImageHero} alt="villa" className='img-fluid position-absolute' style={{borderRadius:"100px 15px 15px 15px"}} width={500}></img>
+                    <img src={ImageHero} alt="villa" className='img-fluid position-absolute' style={{borderRadius:"100px 15px 15px 15px", zIndex:2}} width={500}></img>
+                    <img src={HeroFrame} alt="hero frame" className='position-absolute' style={{margin: "30px 0 0 30px", zIndex:1}} width= {500} height={330} />
                 </div>
             </div>
         </div>

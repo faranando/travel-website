@@ -4,6 +4,7 @@ import Hero from '../parts/Hero'
 import LandingPageData from "../json/landingPage.json"
 import MostPicked from '../parts/MostPicked'
 import Categories from '../parts/Categories'
+import Testimony from '../parts/Testimony'
 
 export default function LandingPage() {
 
@@ -15,6 +16,7 @@ export default function LandingPage() {
         <Hero data={LandingPageData.hero} refMostPicked={mostPickedSection} />
         <MostPicked data={LandingPageData.mostPicked} mostPickedSection={mostPickedSection}/>
         <Categories data={LandingPageData.categories}/>
+        <Testimony data={LandingPageData.testimonial} />
     </>
   )
 }
