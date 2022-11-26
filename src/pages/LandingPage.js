@@ -5,6 +5,7 @@ import LandingPageData from "../json/landingPage.json"
 import MostPicked from '../parts/MostPicked'
 import Categories from '../parts/Categories'
 import Testimony from '../parts/Testimony'
+import Footer from '../parts/Footer'
 
 export default function LandingPage() {
 
@@ -17,6 +18,7 @@ export default function LandingPage() {
         <MostPicked data={LandingPageData.mostPicked} mostPickedSection={mostPickedSection}/>
         <Categories data={LandingPageData.categories}/>
         <Testimony data={LandingPageData.testimonial} />
+        <Footer />
     </>
   )
 }
