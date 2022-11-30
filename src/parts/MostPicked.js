@@ -1,8 +1,10 @@
 import React from 'react'
 import Button from '../elements/Button'
+import { Fade } from "react-awesome-reveal";
 
 export default function MostPicked(props) {
   return (
+    <Fade fraction={0.15} duration={500}>
     <section ref={props.mostPickedSection} className='container'>
         <h4 className='mb-3'>Most Picked</h4>
         <div className='container-grid'>
@@ -37,5 +39,6 @@ export default function MostPicked(props) {
             }
         </div>
     </section>
+    </Fade>
   )
 }

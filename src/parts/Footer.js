@@ -1,9 +1,11 @@
 import React from 'react'
 import BrandIcon from "./IconText"
 import Button from '../elements/Button'
+import { Fade } from "react-awesome-reveal";
 
 export default function Footer() {
   return (
+    <Fade cascade>
     <footer>
     <div className='container'>
       <div className='row'>
@@ -43,5 +45,6 @@ export default function Footer() {
       </div>
     </div>
     </footer>
+    </Fade>
   )
 }
